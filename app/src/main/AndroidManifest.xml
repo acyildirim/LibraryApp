@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="com.example.librarymanagament">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserManagement.MakeReservation"></activity>
+        <activity android:name=".UserManagement.Books_for_user"></activity>
+        <activity android:name=".LibraryManagement.BOOKS"></activity>
+        <activity android:name=".LibraryManagement.ManageReservation"></activity>
+        <activity android:name=".LibraryManagement.Reservations"></activity>
+        <activity android:name=".LibraryManagement.ManageBook"></activity>
+        <activity
+                android:name=".LibraryManagement.ManageBook"
+                tools:ignore="DuplicateActivity"></activity>
+        <activity
+                android:name=".LibraryMenuForUser"
+                android:label="@string/title_activity_library_menu_for_user"
+                android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+                android:name=".LibraryMenu"
+                android:label="@string/title_activity_library_menu"
+                android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".RegisterForUser"></activity>
+        <activity android:name=".LoginForUserActivity"></activity>
+        <activity android:name=".Register"></activity>
+        <activity android:name=".LoginActivity"></activity>
+
+    </application>
+
+</manifest>

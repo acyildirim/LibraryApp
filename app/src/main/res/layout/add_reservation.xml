@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+
+            android:text="FIRST NAME :"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/labelFirstName"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="44dp" android:layout_marginStart="24dp"/>
+    <TextView
+            android:text="SURNAME : "
+            android:id="@+id/labelSurname"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/labelFirstName" android:layout_marginTop="40dp"/>
+
+
+    <TextView
+            android:text="Start At :"
+            android:id="@+id/startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@+id/labelSurname" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="44dp" android:layout_marginTop="48dp"/>
+
+    <TextView
+            android:text="Finish At :"
+            android:id="@+id/finishTime"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" android:layout_marginTop="56dp"
+            app:layout_constraintTop_toBottomOf="@+id/startTime" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="36dp"/>
+    <TextView
+            android:id="@+id/phoneNumber"
+            android:text="Phone Number :"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@+id/finishTime" android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"/>
+    <EditText
+            android:hint="FİRSTNAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editName" android:layout_marginTop="28dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="56dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+            android:hint="SURNAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editSurname" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/editName" android:layout_marginEnd="56dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+            android:hint="START DATE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editStartDate" android:layout_marginTop="28dp"
+            app:layout_constraintTop_toBottomOf="@+id/editSurname" android:layout_marginEnd="64dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+            android:hint="FİNİSH DATE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editFinishDate" android:layout_marginEnd="64dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="28dp"
+            app:layout_constraintTop_toBottomOf="@+id/editStartDate"/>
+    <EditText
+            android:hint="PHONE NUMBER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editPhone" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/editFinishDate" android:layout_marginEnd="64dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</android.support.constraint.ConstraintLayout>

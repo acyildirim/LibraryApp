@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragments.FragmentUserManagement"
+            android:background="@drawable/id541">
+
+    <Button
+            android:text="BOOKS"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:id="@+id/buttonBooks"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/custom_buttom"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+    />
+
+    <Button
+            android:text="BOOK RESERVATION"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:id="@+id/buttonManageBook"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/custom_buttom"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
+    <Button
+            android:text="MAKE RESERVATION"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:id="@+id/buttonMakeReservation"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/custom_buttom"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
+</FrameLayout>

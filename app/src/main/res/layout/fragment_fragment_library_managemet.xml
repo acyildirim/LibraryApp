@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragments.FragmentLibraryManagement"
+             android:background="@drawable/id541">
+
+
+    <Button
+            android:text="ADD NEW BOOK"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/buttonNewBook"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/custom_buttom"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+    />
+
+    <Button
+            android:text="@string/manage_reservation"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/buttonManageReservation"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/custom_buttom"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
+    <Button
+            android:text="BOOKS"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/buttonBooks"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/custom_buttom"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+</FrameLayout>

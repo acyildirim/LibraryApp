@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">LibraryManagament</string>
+    <string name="library">Library</string>
+    <string name="user">User</string>
+    <string name="about">about</string>
+    <string name="rules">rules</string>
+    <string name="username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Username">Username</string>
+    <string name="Email">Email</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_library_menu">LibraryMenu</string>
+    <string name="about1">ABOUT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_book">Add New Book</string>
+    <string name="library_management">Library Management</string>
+    <string name="title_activity_library_menu_for_user">LibraryMenuForUser</string>
+    <string name="user_management">User Management</string>
+    <string name="manage_reservation">MANAGE RESERVATION</string>
+    <string name="book_id">BOOK ID :</string>
+    <string name="book_name">BOOK NAME :</string>
+    <string name="author_name">AUTHOR NAME :</string>
+    <string name="category">CATEGORY :</string>
+    <string name="location">LOCATION :</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+</resources>
