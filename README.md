@@ -2,7 +2,7 @@
 Library Management App
 
 
-This project is an android project.
+This is an android project.
 It allows you to manage library system.
 
 ![Lib App Giris](https://user-images.githubusercontent.com/50423388/106338277-70b4fc80-62a4-11eb-8516-e79b6d9fb7a4.png)
